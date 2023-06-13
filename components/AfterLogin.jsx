@@ -48,8 +48,8 @@ export default function afterLogin() {
             <div className="row">
                 <div className="col-sm-12">
                     <div className="card-text">
-                        Hey you made it here {user ? user.name : 'Stranger'}, we all were waiting for you.<br />I hope you like this Authentication module, Its simple yet important to know.
-                        I'll be updating it with many new stuff frequently.<br /><br />Till then you can look around.<strong> Don't forget to drop a message for me.</strong>
+                        {user ? user.name : 'Незнакомец'}
+
                     </div>
                 </div>
                 <div className="col-sm-12 my-3">

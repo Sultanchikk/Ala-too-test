@@ -44,20 +44,20 @@ export default function Login() {
                         {errorMsg ? <p style={{ color: "red" }}>{errorMsg}</p> : null}
                     </div>
                     <div class="mb-3">
-                        <label for="email" class="form-label"><MdEmail /> Email address</label>
+                        <label for="email" class="form-label"><MdEmail /> Email адрес</label>
                         <input type="email" class="form-control" id="email" required/>
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        <div id="emailHelp" class="form-text">Мы ни с кем не поделимся вашими данными, Promise</div>
                     </div>
                     <div class="mb-3">
                         <label for="password" class="form-label"><RiLockPasswordFill /> Password</label>
                         <input type="password" class="form-control" id="password" required/>
                     </div>
                     <div className="mb-3">
-                        <p>New here? <Link href="/signup">Sign up</Link></p>
+                        <p>Новый здесь? <Link href="/">Зарегаться</Link></p>
                     </div>
                     <button type="submit" class="btn btn-primary w-100">{loading ? <div class="spinner-border" role="status" style={{width:'1.5rem',height:'1.5rem'}}>
-                        <span class="visually-hidden">Loading...</span>
-                    </div> : <>Login</>}</button>
+                        <span class="visually-hidden">Загрузка...</span>
+                    </div> : <>Войти</>}</button>
                 </form>
             </div>
         </>

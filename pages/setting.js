@@ -9,7 +9,7 @@ export default function login() {
                 </div>
                 <div class="col-md-7">
                     <div class="card-body">
-                        <h3 class="card-title text-center">Edit Profile</h3>
+                        <h3 class="card-title text-center">Изменить Профиль</h3>
                         <Setting />
                     </div>
                 </div>

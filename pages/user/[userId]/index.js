@@ -26,16 +26,16 @@ export default function UserPage({ user }) {
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h3 class="card-title text-center">Profile</h3>
+                            <h3 class="card-title text-center">Профиль</h3>
                             <div class="card mb-3">
                                 <div class="card-body">
-                                    <h3 className='card-title'>Name</h3>
+                                    <h3 className='card-title'>Имя</h3>
                                     <div class="card-text">{name}</div>
                                 </div>
                             </div>
                             <div class="card mb-3">
                                 <div class="card-body">
-                                    <h3 className='card-title'>Bio</h3>
+                                    <h3 className='card-title'>Био</h3>
                                     <div class="card-text">{bio}</div>
                                 </div>
                             </div>
@@ -47,7 +47,7 @@ export default function UserPage({ user }) {
                             </div>
                         </div>
                         <div className='card-action text-center mb-3'>
-                            <Link href='/setting'><a className='btn btn-primary'>Edit</a></Link>
+                            <Link href='/setting'><a className='btn btn-primary'>Изменить</a></Link>
                         </div>
                     </div>
                 </div>

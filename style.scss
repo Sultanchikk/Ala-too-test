@@ -1,0 +1,24 @@
+$primary-color: #aed9fa;
+$secondary-color: #009688;
+
+body {
+    background: $primary-color;
+}
+.nav-wrapper {
+    background-color: $secondary-color;
+}
+
+a {
+    color: #4f93f9;
+    text-decoration: none;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.img-fluid {
+    height: 100%;
+    object-fit: cover;
+}
